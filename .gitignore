@@ -1,0 +1,58 @@
+# ==========================================
+# CodeAtlas Root .gitignore
+# ==========================================
+
+# .NET & Visual Studio build outputs
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.sln.docstates
+.vs/
+.vscode/
+*.DotSettings.user
+
+# Test outputs & Coverage
+TestResults/
+[Tt]est[Rr]esult*/
+coverage/
+*.coverage
+*.coveragexml
+
+# Node.js & Frontend build outputs
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and Secret files
+.env
+.env.local
+.env.*.local
+*.secrets.json
+appsettings.*.local.json
+api_build.log
+build.log
+*.log
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+

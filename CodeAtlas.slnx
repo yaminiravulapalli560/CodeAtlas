@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/backend/">
+    <Project Path="src/backend/CodeAtlas.Api/CodeAtlas.Api.csproj" />
+    <Project Path="src/backend/CodeAtlas.Common/CodeAtlas.Common.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Modules/">
+    <Project Path="src/backend/Modules/CodeAtlas.Modules.AiAssistant/CodeAtlas.Modules.AiAssistant.csproj" />
+    <Project Path="src/backend/Modules/CodeAtlas.Modules.Architecture/CodeAtlas.Modules.Architecture.csproj" />
+    <Project Path="src/backend/Modules/CodeAtlas.Modules.CodeAnalysis/CodeAtlas.Modules.CodeAnalysis.csproj" />
+    <Project Path="src/backend/Modules/CodeAtlas.Modules.Identity/CodeAtlas.Modules.Identity.csproj" />
+    <Project Path="src/backend/Modules/CodeAtlas.Modules.Jobs/CodeAtlas.Modules.Jobs.csproj" />
+    <Project Path="src/backend/Modules/CodeAtlas.Modules.Repositories/CodeAtlas.Modules.Repositories.csproj" />
+  </Folder>
+  <Folder Name="/src/backend/Workers/">
+    <Project Path="src/backend/Workers/CodeAtlas.Worker/CodeAtlas.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/backend/">
+    <Project Path="tests/backend/CodeAtlas.Api.Tests/CodeAtlas.Api.Tests.csproj" />
+  </Folder>
+</Solution>
